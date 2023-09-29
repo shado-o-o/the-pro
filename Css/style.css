@@ -470,6 +470,14 @@ body{
         justify-content: center;
         color: var(--color-text);
        }
+@media (max-width:976px) {
+     .navbar-collapse {
+        background-color: var(--back-translat-color);
+        backdrop-filter: var(--back-translat-bulr);
+        border-radius: 9px;
+        padding: 10px;
+     }        
+}
 @media (max-width:767px) {
     .collapse{
         background-color: var(--back-translat-color);
@@ -593,22 +601,21 @@ body{
         font-size: 12px;
         color:black;
     }
-    .servies{
-        margin: 7px;
-        width: 100%;
-       
+     .servies{
+       width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         overflow: hidden;
+        margin-left: 0px;
        
     }
     .servies-title h2{
       color: var(--color-scoundary);
     }
     .row{
-        padding-left:5px;
+        padding-left: 40px;
     }
     .card{
         margin-bottom: 10px;
